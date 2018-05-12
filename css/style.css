@@ -1,1 +1,255 @@
 
+/* General style for body content */
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: #2d3c49;
+}
+.container {  
+  align-self: center;   
+  width:80%;
+  text-align: center; 
+  
+}
+header, main, section, div {
+  box-sizing: border-box;  
+}
+
+/* style for Header part */
+header {
+  padding-left: 208px;
+}
+
+.header_logo {
+  float: left;
+}
+.header_title {
+  border-bottom: solid;
+  border-color: #7d97ad;
+  text-align: right;
+  margin-bottom: 5px;
+}
+/* style for Main Section */
+.main_section {
+  max-width: 100%;
+  height:100%;
+  width: 100%;
+}
+.main_content {
+  align: center;
+}
+.main_project {
+  width: 83%;
+  height: 400px;
+  padding-left: 204px;
+  float: right;
+  margin-bottom: 10px;
+}
+
+/* style for Featured Work section*/
+h3.project_list_title {
+  font-size: 24px;
+  color: #7d97ad;
+  text-align: left;
+  padding-left: 212px;
+  width: 100%;
+  box-sizing: border-box;  
+
+}
+.project_list {
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  justify-content: space-between;
+}
+.mockup_article {
+  order: 1;
+  width: 30%;
+  
+}
+.animal_trading {
+  order: 2;
+  width: 30%;
+  
+}
+.pixel_art {
+  order: 3;
+  width: 30%;
+  
+}
+.img_mockup {
+  max-width: 100%;
+  height: 200px;
+  padding-left: 200px;
+} 
+.img_animal {
+  max-width: 100%;
+  height: 200px;
+  padding-left: 238px;  
+}
+.img_pixel {
+  max-width: 100%;
+  height: 200px;
+  padding-left: 120px;
+}
+.mockup_article_title {
+  float: right;  
+}
+.animal_trading_title {
+  float: right;  
+}
+.pixel_art_title {
+  float: center;  
+  padding-left: 100px;
+}
+.github_article, .github_animal, .github_pixelart {
+  font-size: 14px;
+  font-weight: bold;
+  color: #2d3c49; 
+  justify-content: center;
+    
+}
+.github_article {  
+  padding-left: 170px;
+  
+}
+.github_animal {
+  padding-left: 150px;
+
+} 
+  .github_pixelart {
+    padding-left: 130px;
+}
+a{
+    display:block;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+a:hover i {
+    display: inline-block;
+    text-decoration:none !important;
+}
+
+/* Media query for Google Nexus 5 view*/
+@media screen and (max-width: 360px) {
+
+  header {
+    padding-left: 100px;
+  }
+  .header_title {  
+    margin-bottom: 4px;
+  }
+  .main_project {  
+    padding-left: 100px;
+    float: center;
+    margin-bottom: 30px;
+  }
+  h3.project_list_title {
+    font-size: 18px;  
+    padding-left: 100px;
+  }  
+  .mockup_article { 
+    width: 100%;  
+  }
+  .animal_trading {    
+    width: 100%;   
+  }
+  .pixel_art {    
+    width: 100%;   
+  }
+  .img_mockup {
+    max-width: 100%;
+    height: 100px;
+    padding-left: 70px;
+  } 
+  .img_animal {
+    max-width: 100%;
+    height: 100px;
+    padding-left: 100px;  
+  }
+  .img_pixel {
+    max-width: 100%;
+    height: 100px;
+    padding-left: 100px;
+  }  
+  .mockup_article_title {
+    float: none;
+    padding-left: 83px;
+   margin-bottom: 50px;
+  }
+  .animal_trading_title {
+       float: none;
+      padding-left: 83px;
+    margin-bottom: 50px;
+  }
+  .pixel_art_title {
+      float: none;
+      padding-left: 83px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Media query for Apple iPad view*/
+@media screen and (min-width: 361px) and (max-width: 768px){
+
+  header {
+    padding-left: 100px;
+  }    
+  .header_title {  
+    margin-bottom: 4px;
+  }  
+  .main_project {  
+    height: 500px;
+    padding-left: 100px;
+    float: center;
+    margin-bottom: 30px;
+  }
+  h3.project_list_title {
+    font-size: 18px;  
+    padding-left: 100px;
+
+  }  
+  .mockup_article { 
+    width: 32%;  
+  }
+  .animal_trading {  
+  width: 32%; 
+  }
+  .pixel_art {    
+    width: 32%;   
+  }
+  .img_mockup {
+    max-width: 100%;
+    height: 100px;
+    padding-left: 100px;
+  } 
+  .img_animal {
+    max-width: 100%;
+    height: 100px;
+    padding-left: 100px;  
+  }
+  .img_pixel {
+    max-width: 100%;
+    height: 100px;
+    padding-left: 100px;
+  }  
+  .mockup_article_title {
+    float: none;
+    padding-left: 83px;
+    margin-bottom: 50px;
+  }
+  .animal_trading_title {
+    float: none;
+    padding-left: 83px;
+    margin-bottom: 50px;
+  }
+  .pixel_art_title {
+    float: none;
+    padding-left: 83px;
+    margin-bottom: 50px;
+  }
+}
