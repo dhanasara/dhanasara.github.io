@@ -1,4 +1,3 @@
-
 /* General style for body content */
 body, html {
   width: 100%;
@@ -38,7 +37,7 @@ header {
   width: 100%;
 }
 .main_content {
-  align: center;
+  align-content: center;
 }
 .main_project {
   width: 83%;
@@ -100,8 +99,7 @@ h3.project_list_title {
 .animal_trading_title {
   float: right;  
 }
-.pixel_art_title {
-  float: center;  
+.pixel_art_title {  
   padding-left: 100px;
 }
 .github_article, .github_animal, .github_pixelart {
@@ -144,8 +142,7 @@ a:hover i {
     margin-bottom: 4px;
   }
   .main_project {  
-    padding-left: 100px;
-    float: center;
+    padding-left: 100px;    
     margin-bottom: 30px;
   }
   h3.project_list_title {
@@ -204,8 +201,7 @@ a:hover i {
   }  
   .main_project {  
     height: 500px;
-    padding-left: 100px;
-    float: center;
+    padding-left: 100px;    
     margin-bottom: 30px;
   }
   h3.project_list_title {
